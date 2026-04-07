@@ -102,4 +102,9 @@ class User extends Backend
         $this->success();
     }
 
+    public function test()
+    {
+        return true;
+    }
+
 }
